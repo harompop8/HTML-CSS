@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* #= id
+          . = class
+          : = pseudo class 
+          :: = pseudo elememt 
+          > = clildreen */
+     body    { 
+          font-family: Arial, Helvetica, sans-serif;
+        
+        }
+        a{ 
+            color: red;
+            text-decoration: none;
+            font-weight: bold ;
+         }
+         a:visited{
+            color: rgb(162, 0, 255);
+         }
+        a:hover {
+            color: black;
+            text-decoration: underline ;
+        }
+        a:active {
+            color: yellow;
+         }
+         .especial {
+          background-color: chartreuse;
+          color: white;
+         }  
+         .especial::before {
+            content: '☊ ' ;
+    
+         }
+         .especial ::after {
+            content: ' ☊' ;
+         }
+
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+    <a href="https://www.youtube.com/channel/UCdnX-N5Yh3bynpFwSt86utw">
+        <li>repositorio github</li>
+    </a>
+    <a href="https://www.youtube.com/channel/UCdnX-N5Yh3bynpFwSt86utw">
+        <li class="especial ">canal do youtube</li>
+    </a>
+    <a href="https://www.youtube.com/channel/UCdnX-N5Yh3bynpFwSt86utw">
+        <li>site do curso em video </li>
+    </a>
+    </ul>
+</body>
+</html>

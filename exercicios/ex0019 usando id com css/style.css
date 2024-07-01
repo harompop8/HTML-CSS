@@ -1,0 +1,30 @@
+@charset  "UTF-8";
+/* Tudo em HMTL É ID= CSS = #  so pode 1 
+TUDO EM HMTL QUE É class = em css é =. pode varios  */
+
+body { 
+    background-color: rgb(160, 196, 125);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h1 { color: rgb(44, 88, 0)
+
+}
+h1#Principal  {
+    text-align: center;
+}
+
+h2{ color: rgb(45, 59, 31)
+
+}
+.basico { color: rgb(252, 7, 158)
+
+}
+.intermediario { color: rgb(17, 0, 255)
+
+}
+.avançado { color: rgb(217, 255, 2)
+
+}
+.destaque { background-color: brown;
+
+}
